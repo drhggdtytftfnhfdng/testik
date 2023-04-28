@@ -1,0 +1,264 @@
+
+* {
+	margin: 0;
+	padding: 0;
+}
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    width: 1920px;
+}
+nav {
+    background-color: #FFFFFF;
+}
+nav ul {
+    padding:0;
+    margin:0;
+    list-style: none;
+    position: relative;
+   
+    }
+nav ul li {
+    margin: 0px -7px 0 0;
+    display:inline-block;
+    border-radius: 20px;
+    }
+nav a {
+    display:block;
+    padding:0 20px;
+    color:#C3B9B5;
+    font-size:20px;
+    line-height: 60px;
+    text-decoration:none;
+    
+}
+nav a:hover {
+    color: #000000;
+   
+}
+nav ul ul {
+    display: none;
+    position: absolute;
+    top: 100%;
+    border: 1px solid;
+    border-radius: 20px;
+    border-color: #080606;
+}
+nav ul li:hover > ul {
+    display:inherit;
+}
+nav ul ul li {
+    min-width:170px;
+    float:none;
+    display:list-item;
+    position: relative;
+}.flex-1 {
+    display: flex;
+    list-style: none;
+}
+
+.left-1 {
+    padding-left: 40px;
+    color: #C3B9B5;
+    line-height: 20px;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 550;
+}
+.nomber1 {
+    margin-top: 105px;
+}
+
+.img_nomber2 {
+    padding-top: 10px;
+}
+
+.style_nomber1 {
+    display: flex;
+    justify-content: space-around;
+}
+.flex-2 {
+    display: flex;
+}
+
+.left-3 {
+    padding-right: 346px;
+    padding-left: 80px;
+    color: #C3B9B5;
+    line-height: 20px;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 550;
+}
+
+.p1 {
+    color: #FFC59E;
+    font-size: 20px;
+    font-weight: 700;
+    font-style: normal;
+    padding-left: 19px;
+    margin: 0 auto;
+    padding-top: 14px;
+}
+.input {
+    margin-top: 35px;
+    border: 1px solid rgba(8, 6, 6, 0.1);
+}
+.back{
+    margin-top: 130px;
+    margin-left: 700px;
+}
+.back button{
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 20px;  
+    display: flex;
+    align-items: center;
+    color: #FFC59E;  
+    cursor: pointer;
+    background-color: white;
+    border: none;
+}
+.back a{
+    text-decoration: none;
+}
+.appointment {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 80px;
+    line-height: 110px;
+    margin-left: 230px;
+    margin-top: 100px;
+}
+.button{
+    margin-top: 80px;
+    margin-left: 210px;
+}
+.button button{
+        width: 909px;
+        height: 85px;
+        left: 781px;
+        top: 325px;
+        background-color: white; 
+        cursor: pointer;
+        margin-top: 30px;
+        border-radius: 20px;
+        box-shadow: 2px 2px 20px rgba(0, 0, 0, 0.1);
+        border: none;   
+        display: flex;
+      
+}
+.button span {
+    margin-left:600px ;
+
+}
+.button li{
+    list-style: none;
+    cursor: pointer;
+    font-size: 30px;
+}
+.button p{
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 20px;
+    margin-top: 30px;
+    margin-left: 15px;
+
+}
+.flex-5{
+    display: flex;
+
+}
+.footer {
+    margin-right: 20px;
+    background-color: #59443F;
+	width: 110%;
+    margin-top: 300px;
+    
+}
+
+.wrapper_footer{
+	display: table;
+	height: 100%;
+
+}
+.Aibolit_logo{
+display: flex;
+padding: 100px;
+margin-left: 99px;
+}
+.Aibolit_logo .span_1 {
+        margin-left:22px ; 
+        font-style: normal;
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 20px;
+}
+.Aibolit_logo span{
+        font-style: normal;
+        font-weight: 700;
+        font-size: 50px;
+        line-height: 46px;
+        color: #FFFFFF;
+        margin-left: 30px;
+}
+.div_p_aibolit_one{
+    color: white;
+    display: flex;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    margin-left: 200px;
+}
+.div_p_aibolit_one p{
+    margin-left: 100px;
+}
+.fill:hover {
+    fill: skyblue;
+    cursor: pointer;
+}
+.flex-3{
+    display: flex;
+    list-style: none;
+    position: relative;
+    right: 80px;
+}
+.flex-3 li{
+    margin-left: 50px;
+}
+.style_p{
+    color: white;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+}
+.style_p span{
+    color: black;
+}
+.flex_div{
+    display: flex;
+}
+.flex_div div{
+    margin-left: 100px;
+}
+.div_p_aibolit_one ul{
+    display: flex;
+    list-style: none;
+}
+.masenge{
+margin-left: 1200px;
+}
+.masenge{
+    position: relative;
+    bottom: 400px;
+}
+.masenge li{
+    padding-bottom: 30px;
+}
+.masenge img{
+    padding-bottom:50px ;
+}
+.masenge p{
+    padding-bottom: 70px;
+}
